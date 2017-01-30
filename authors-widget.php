@@ -28,13 +28,12 @@ class Weil_Author_List_Widget extends WP_Widget {
 		if ( ! empty( $instance['title'] ) ) {
 			echo $args['before_title'] . apply_filters( 'widget_title', $instance['title'] ) . $args['after_title'];
 		$exclude = ! empty( $instance['exclude'] ) ? $instance['exclude'] : esc_html__( 'New exclude', 'text_domain' );
-		var_dump($exclude); 
 
 
 	$args1 = array(
 			'number' => -1,
 			'exclude' => $exclude,
-			'has_published_posts' => false,
+			'has_published_posts' => true,
             'orderby' => 'name',
             'order' => 'ASC'
 		);

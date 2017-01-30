@@ -40,7 +40,6 @@ class Upcoming_Events_Widget extends WP_Widget {
 				); 
 
 				$events_array = get_posts( $args1 );
-				var_dump("Events: " . $events_array);
 
 				if($events_array): ?>
 

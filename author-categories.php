@@ -1,12 +1,12 @@
 <?php
 /*
 Plugin Name: Weil Author and Categories Lists
-Plugin URI: http://pippinsplugins.com/featured-comments
-Description: Lets the admin add "featured" or "buried" css class to selected comments. Handy to highlight comments that add value to your post. Also includes a Featured Comments widget
+Plugin URI: http://www.weil.com
+Description: Includes 'Weil Category', 'Weil Authors' and 'Weil Events' List widgets. 
 Version: 1.2.6
-Author: Pippin Williamson
-Author URI: http://pippinsplugins.com
-Contributors: mordauk, Utkarsh
+Author: Tim Beckett
+Author URI: http://tim-beckett.com
+
 
 */
 
